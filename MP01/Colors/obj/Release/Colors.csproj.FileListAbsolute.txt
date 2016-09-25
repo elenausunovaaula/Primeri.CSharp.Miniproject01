@@ -1,0 +1,3 @@
+D:\aula\primeri.csharp.miniproject01\MP01\Colors\bin\Release\Colors.dll
+D:\aula\primeri.csharp.miniproject01\MP01\Colors\obj\Release\Colors.csprojResolveAssemblyReference.cache
+D:\aula\primeri.csharp.miniproject01\MP01\Colors\obj\Release\Colors.dll

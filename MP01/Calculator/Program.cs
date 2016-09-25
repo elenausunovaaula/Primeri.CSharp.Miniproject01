@@ -21,7 +21,8 @@ namespace Calculator
 
 
 			//Стариране на програмата
-			_program.uInput.getUserCommands();
+			_program.uInput.sayHello ();
+			_program.uInput.getUserCommands ();
 		}
 	}
 }
