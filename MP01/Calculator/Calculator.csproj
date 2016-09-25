@@ -44,6 +44,10 @@
       <Project>{99A4400F-B1D9-4BA9-A804-574C69C9F100}</Project>
       <Name>About</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Calculations\Calculations.csproj">
+      <Project>{A85894F0-2E2B-47B0-9E33-A7737962B20D}</Project>
+      <Name>Calculations</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

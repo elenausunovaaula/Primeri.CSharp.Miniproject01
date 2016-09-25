@@ -3,3 +3,4 @@ D:\aula\primeri.csharp.miniproject01\MP01\UserInput\obj\Release\UserInput.dll
 D:\aula\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\About.dll
 D:\aula\primeri.csharp.miniproject01\MP01\UserInput\obj\Release\UserInput.csprojResolveAssemblyReference.cache
 D:\aula\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\Colors.dll
+D:\aula\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\Calculations.dll

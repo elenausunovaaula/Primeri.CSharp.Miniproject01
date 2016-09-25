@@ -7,6 +7,7 @@ namespace Calculator
 		//Дефиниране на библиотеки
 		public UserInput.UInput uInput = new UserInput.UInput();
 		public About.Me about = new About.Me();
+		Calculations.MainLibrary _calc = new Calculations.MainLibrary ();
 
 
 
