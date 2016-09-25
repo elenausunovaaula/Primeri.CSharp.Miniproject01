@@ -1,0 +1,3 @@
+D:\aula\primeri.csharp.miniproject01\MP01\About\bin\Release\About.dll
+D:\aula\primeri.csharp.miniproject01\MP01\About\obj\Release\About.csprojResolveAssemblyReference.cache
+D:\aula\primeri.csharp.miniproject01\MP01\About\obj\Release\About.dll
