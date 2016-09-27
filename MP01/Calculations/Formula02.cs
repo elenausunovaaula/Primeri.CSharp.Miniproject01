@@ -3,6 +3,8 @@ namespace Calculations
 {
 	public class Formula02
 	{
+		Colors.ForCLI _cl = new Colors.ForCLI();
+		//Формула за вдлъбнат ъгъл
 		public Formula02()
 		{
 		}
@@ -26,11 +28,11 @@ namespace Calculations
 					if (runCalculate (param, out result))
 					{
 
-						Console.Write("Обемът на вдлъбнатия ъгъл е :");
-						Console.Write(result.ToString("N2"));
-						Console.WriteLine(" m3\n");
+						_cl.Default ();		Console.Write("Обемът на вдлъбнатия ъгъл е :");
+						_cl.Result ();		Console.Write (result.ToString("N2") );
+						_cl.Default ();		Console.WriteLine(" m3\n");
 					}else {
-						Console.WriteLine( "Има грешно въведени параметри. Можете да проверите синтаксиса с параметър '-п'\n\n");
+						_cl.Default ();		Console.WriteLine ( "Има грешно въведени параметри. Можете да проверите синтаксиса с параметър '-п'\n\n");
 					
 					}
 				}
@@ -63,18 +65,18 @@ namespace Calculations
 
 		private void help ()
 		{
-			Console.Write("[въгъл]");
-			Console.WriteLine(" - вдлъбнат ъгъл ширина и дължина на вдлъбнатия ъгъл");
+			_cl.Result ();		Console.Write("\n[въгъл]");
+			_cl.Default ();		Console.WriteLine(" - вдлъбнат ъгъл");
 
-			Console.Write("параметри: ");
-			Console.WriteLine(" - a, b и h");
+			_cl.Command ();		Console.Write("параметри: ");
+			_cl.Default ();		Console.WriteLine(" - a, b и h\n");
 
 
-			Console.Write("a и b");
-			Console.WriteLine(" - ширина и дължина на вдлъбнатия ъгъл");
+			_cl.Command ();		Console.Write("a и b");
+			_cl.Default ();		Console.WriteLine(" - ширина и дължина на вдлъбнатия ъгъл");
 
-			Console.Write("h");
-			Console.WriteLine(" - височина на вдлъбнатия ъгъл\n");		
+			_cl.Command ();		Console.Write("h");
+			_cl.Default ();		Console.WriteLine(" - височина на вдлъбнатия ъгъл\n");		
 		
 		}
 	}

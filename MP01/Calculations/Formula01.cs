@@ -82,7 +82,7 @@ namespace Calculations
 		//Помощ за командата
 		private void help()
 		{ 
-			_c.Result(); Console.Write("[яма]");
+			_c.Result(); Console.Write("\n[яма]");
 			_c.Default(); Console.WriteLine(" - команда за пресмятане на строителна яма");
 
 			_c.Command(); Console.Write("параметри: ");
