@@ -7,7 +7,7 @@ namespace About
 		public string shortName = "СКалкулатор";
 		public string longName = "Строителен калкулатор за изкопни работи";
 
-		public string version = "вер. 1.00";
+		public string version = "вер. 1.00\n";
 		public int versionNumber = 100;
 
 		public Me ()

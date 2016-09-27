@@ -38,8 +38,7 @@ namespace Calculations
 						_c.Default();	Console.WriteLine(" м3\n");
 					}
 					else {
-						Console.WriteLine(
-							"Има грешно въведени параметри. Можете да проверите синтаксиса с параметър '-п'");
+						_c.Default (); Console.WriteLine ("Има грешно въведени параметри. Можете да проверите синтаксиса с параметър '-п'\n");
 					}
 				}
 
