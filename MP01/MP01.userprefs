@@ -4,14 +4,15 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Calculations\Formula01.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Calculations\Formula02.cs">
     <Files>
       <File FileName="Calculator\Program.cs" Line="10" Column="68" />
       <File FileName="UserInput\UserInput.cs" Line="37" Column="5" />
-      <File FileName="About\me.cs" Line="14" Column="4" />
+      <File FileName="About\me.cs" Line="17" Column="2" />
       <File FileName="Colors\ForCLI.cs" Line="15" Column="24" />
       <File FileName="Calculations\Calculations.cs" Line="8" Column="39" />
-      <File FileName="Calculations\Formula01.cs" Line="81" Column="3" />
+      <File FileName="Calculations\Formula01.cs" Line="39" Column="7" />
+      <File FileName="Calculations\Formula02.cs" Line="4" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
